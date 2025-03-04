@@ -1,0 +1,69 @@
+header {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+header img {
+    height: 150px; 
+    width: auto; 
+}
+
+header h1, header p {
+    margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    background-color: #25007a; 
+    padding: 2dvh;
+}
+@media screen and (min-width: 480px){
+    .column { column-count: 1; padding: 2%; justify-content:left; column-gap: 4%; font-size: small;}
+}
+
+
+@media screen and (min-width: 700px){
+    .column { column-count: 3; padding: 2%; justify-content:left; column-gap: 4%; font-size: small;}
+}
+.nav-links {
+    list-style: none;
+    display: flex; gap: 4dvh;
+    justify-content: left;
+}
+
+
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover {
+    color: #ffdd1b; 
+}
+.FurnitureCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.CardForm-Container { 
+    background-color: #f8f3d7; 
+    width: 100%; PADDING : 4%; 
+    border-radius: 4%}
+.CardForm-Container img {
+    width: 90%; }
+.CardForm-Container h3 {
+    font-size:larger;}
+.CardForm-Container p {
+    font-size:small;}
+.FurnitureCards :hover { transform: rotate(20deg); transform :scale(1.05)}

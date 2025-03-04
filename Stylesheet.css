@@ -1,0 +1,70 @@
+
+    header {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        font-size:x-large; 
+        font-weight: bold; 
+        text-align: center; 
+        padding-top: 20px;
+        color: #8b3b3b;}
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        font-size:medium; 
+        font-weight: 400;
+        text-align: center; 
+        padding-left: 20px;}
+
+    .Form-Container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background: rgb(255, 226, 218);
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
+   
+    .Form-Questions {
+        text-align: left;
+        padding-left: 20px}
+        
+
+    .Form-Questions label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 500; }
+
+    .Form-Questions input, 
+    .Form-Questions select, 
+    .Form-Questions textarea {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #adadad;
+        border-radius: 4px;
+        font-size: 12px;}
+    .Form-Radio {   
+        text-align: left;
+        padding-left: 20px}
+    .Form-Radio label{font-weight: 500}
+
+     .Form-Button button {
+        width: 45%;
+        padding: 8px;
+        background-color: #d46770;
+        color: white;
+        border: none;
+        border-radius: 16px;
+        font-size: 24px;
+        cursor: pointer;
+        }
+    .Form-Button button:hover {transform: scale(1.1);transition-delay: 400ms;}
+    
+    table {
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #a76a6a;
+        }
+    th {padding: 20px; text-align: center; background-color: #ffd5d8;}
+    td {padding: 20px; text-align: center; background-color: #ffffff;}
+
+    #myheader {padding-left: 20px; font-weight: bolder; background-color: rgb(173, 112, 123);}
+     
+
+  

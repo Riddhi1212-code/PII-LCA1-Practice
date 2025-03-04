@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Toys for me</h2>
+<p>My love for toys is endless. They are so colourful.</p>
+
+<img src="C:\Users\vazer\OneDrive\Desktop\HTML MIT LEARNING">
+
+</body>
+</html>
